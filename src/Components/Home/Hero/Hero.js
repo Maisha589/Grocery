@@ -38,7 +38,7 @@ const Hero = () => {
                         </div>
                         <div className='holder'>
                             <div className='icon'>
-                                <i class="fa-solid fa-sack-dollar"></i>
+                                <i className="fa-solid fa-sack-dollar"></i>
                             </div>
                             <div className='content'>
                                 <h3>Money Back Guarantee</h3>
@@ -47,7 +47,7 @@ const Hero = () => {
                         </div>
                         <div className='holder'>
                             <div className='icon'>
-                                <i class="fa-solid fa-headset"></i>
+                                <i className="fa-solid fa-headset"></i>
                             </div>
                             <div className='content'>
                                 <h3>Online Support 24/7</h3>

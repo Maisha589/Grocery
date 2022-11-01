@@ -40,7 +40,7 @@ const RecentProducts = () => {
             <Row gutter={24}>
                 {
                     products.map(product => {
-                        return <Col lg={6}>
+                        return <Col lg={6} key={product.key}>
                             <div className='content'>
                                 <div className='image'>
                                     <img src={product.image} alt="product" />
