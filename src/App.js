@@ -16,6 +16,7 @@ import About from './Components/Pages/About/About';
 import Shop from './Components/Pages/Shop/Shop';
 import Contact from './Components/Pages/Contact/Contact';
 import Faq from './Components/Pages/Faq/Faq';
+import FooterWidget from './Components/Common/FooterWidget/FooterWidget';
 
 const { Header, Footer, Content } = Layout;
 
@@ -38,7 +39,9 @@ function App() {
           </Content>
         </BrowserRouter>
 
-        <Footer>Footer</Footer>
+        <Footer>
+          <FooterWidget></FooterWidget>
+        </Footer>
       </Layout>
     </div>
   );
