@@ -17,6 +17,7 @@ import Shop from './Components/Pages/Shop/Shop';
 import Contact from './Components/Pages/Contact/Contact';
 import Faq from './Components/Pages/Faq/Faq';
 import FooterWidget from './Components/Common/FooterWidget/FooterWidget';
+import FooterCopyright from './Components/Common/FooterCopyright/FooterCopyright';
 
 const { Header, Footer, Content } = Layout;
 
@@ -41,6 +42,7 @@ function App() {
 
         <Footer>
           <FooterWidget></FooterWidget>
+          <FooterCopyright></FooterCopyright>
         </Footer>
       </Layout>
     </div>
